@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Challenge_22.11.4733</h1>
+    <section class="table">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="4" bgcolor="orange"> Daftar Buku</th>  
+                </tr>
+                <tr>
+                    <th rowspan="5" > <img src="imgKu/doll.jpg" alt="doll" width="150px"></th>
+                </tr>
+                <tr>
+                    <td>Judul</td>
+                    <td>:</td>
+                    <td>Web Programming</td>
+                </tr>
+                <tr>
+                    <td>Harga</td>
+                    <td>:</td>
+                    <td>Rp2445.000,00</td>
+                </tr>
+                <tr>
+                    <td>Pengarang</td>
+                    <td>:</td>
+                    <td>John Dean</td>
+                </tr>
+            </thead>
+        </table>
+    </section>
+
+    <section class="form">
+        <h3>Isilah formulir di bawah ini</h3>
+        <form>
+            <table cellspacing="5">
+                <tr>
+                    <td>
+                        <label for="nama">Nama :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" id="nama">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password :</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="kelamin">Jenis Kelamin :</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="laki" name="kelamin" value="laki-laki">
+                        <label for="laki">Laki-laki</label>
+                        <input type="radio" id="perempuan" name="kelamin" value="perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hobi">Hobi :</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="bacaBuku" id="buku">
+                        <label for="buku">Membaca Buku</label>
+                        <input type="checkbox" name="menulis" id="menulis">
+                        <label for="menulis">Menulis</label>
+                        <input type="checkbox" name="memancing" id="memancing">
+                        <label for="memancing">Memancing</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="asalKota">Asal Kota :</label>
+                    </td>
+                    <td>
+                        <select name="asalKota" id="asalKota">
+                            <option value="Semarang">Semarang</option>
+                            <option value="Yogyakarta">Yogyakarta</option>
+                            <option value="Solo">Solo</option>
+                            <option value="Jakarta">Jakarta</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="komentar">Komentar Anda :</label>
+                    </td>
+                    <td>
+                        <textarea name="komentarAnda" id="komentar" cols="20" rows="7"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="mulai" value="Mulai Proses!">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </section>
+    
+</body>
+</html>
